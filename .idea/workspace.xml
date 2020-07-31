@@ -35,11 +35,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acaa68f5-f2d7-434e-abb7-fe3b31856a83" name="Default Changelist" comment="build">
+    <list default="true" id="acaa68f5-f2d7-434e-abb7-fe3b31856a83" name="Default Changelist" comment="hotfix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/example.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/example.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.example.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.example.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="42c1100f-05d6-46fa-9dcb-b68eba3b5351" />
   </component>
   <component name="ProjectId" id="1fPn3rCrOdQlNE6yP8IdxTidl47" />
   <component name="ProjectViewState">
@@ -79,7 +81,7 @@
       <updated>1596128398715</updated>
       <workItem from="1596128400026" duration="1447000" />
       <workItem from="1596174017475" duration="7281000" />
-      <workItem from="1596192651367" duration="585000" />
+      <workItem from="1596192651367" duration="1512000" />
     </task>
     <task id="LOCAL-00001" summary="some updates">
       <created>1596179512192</created>
@@ -102,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596181414533</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hotfix">
+      <created>1596193247547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596193247547</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,23 +131,27 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some updates" />
-    <MESSAGE value="hotfix" />
     <MESSAGE value="build" />
-    <option name="LAST_COMMIT_MESSAGE" value="build" />
+    <MESSAGE value="hotfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotfix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2664" y="310" key="FileChooserDialogImpl" timestamp="1596181000395">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2664" y="310" key="FileChooserDialogImpl/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596181000395" />
+    <state x="2703" y="469" key="Github.Dialog.Accounts.Choose" timestamp="1596193295474">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2703" y="469" key="Github.Dialog.Accounts.Choose/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596193295474" />
     <state x="2415" y="187" key="SettingsEditor" timestamp="1596179679257">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2415" y="187" key="SettingsEditor/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596179679257" />
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1596181416160">
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1596193249042">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596181416160" />
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596193249042" />
     <state x="2579" y="281" width="602" height="544" key="find.popup" timestamp="1596178962778">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
