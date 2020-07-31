@@ -104,13 +104,13 @@ export default {
       switch (this.state) {
         case "close":
           document.body.style.overflow = 'initial'
-          return window.screen.height
+          return document.documentElement.clientHeight
         case "open":
-          const offset = window.screen.height - this.$refs.card.clientHeight
-          const half = window.screen.height * 0.4
+          const offset = document.documentElement.clientHeight - this.$refs.card.clientHeight
+          const half = document.documentElement.clientHeight * 0.4
           const result = this.$refs.card.clientHeight > half ? half : offset
           document.body.style.overflow = 'hidden'
-          this.$refs.content.style.maxHeight = `${window.screen.height - result - 44}px`
+          this.$refs.content.style.maxHeight = `${document.documentElement.clientHeight - result - 44}px`
           return result
         default:
           return this.y
