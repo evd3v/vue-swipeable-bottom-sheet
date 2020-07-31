@@ -109,7 +109,7 @@ export default {
           const offset = document.documentElement.clientHeight - this.$refs.card.clientHeight
           const half = document.documentElement.clientHeight * 0.6
           const result = this.$refs.card.clientHeight > half ? document.documentElement.clientHeight - half : offset
-            console.log(offset)
+            console.log(this.$refs.card.clientHeight)
           document.body.style.overflow = 'hidden'
           this.$refs.content.style.maxHeight = `${document.documentElement.clientHeight - result - 44}px`
           return result
