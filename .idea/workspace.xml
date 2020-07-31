@@ -35,9 +35,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acaa68f5-f2d7-434e-abb7-fe3b31856a83" name="Default Changelist" comment="some updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" afterDir="false" />
+    <list default="true" id="acaa68f5-f2d7-434e-abb7-fe3b31856a83" name="Default Changelist" comment="hotfix">
+      <change beforePath="$PROJECT_DIR$/dist/vue-swipeable-bottom-sheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vue-swipeable-bottom-sheet.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../doctis-web" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596128398715</updated>
       <workItem from="1596128400026" duration="1447000" />
-      <workItem from="1596174017475" duration="5895000" />
+      <workItem from="1596174017475" duration="6906000" />
     </task>
     <task id="LOCAL-00001" summary="some updates">
       <created>1596179512192</created>
@@ -85,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596179512192</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hotfix">
+      <created>1596180404863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596180404863</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,17 +110,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="some updates" />
+    <MESSAGE value="hotfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotfix" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2664" y="310" key="FileChooserDialogImpl" timestamp="1596181000395">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2664" y="310" key="FileChooserDialogImpl/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596181000395" />
     <state x="2415" y="187" key="SettingsEditor" timestamp="1596179679257">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2415" y="187" key="SettingsEditor/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596179679257" />
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1596179682013">
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1596181405909">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596179682013" />
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596181405909" />
     <state x="2579" y="281" width="602" height="544" key="find.popup" timestamp="1596178962778">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
