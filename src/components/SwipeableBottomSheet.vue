@@ -5,7 +5,7 @@
     ref="card"
     class="card"
     :data-state="isMove ? 'move' : getStateName"
-    :style="{ top: `${isMove ? y : calcY()}px` }"
+    :style="{ top: getTopOffset }"
   >
     <div class="pan-area" ref="pan"><div class="bar" ref="bar"></div></div>
     <div class="contents" ref="content">
@@ -37,14 +37,19 @@ export default {
       isMove: false,
       rect: {},
       height: 0,
+      topOffset: document.documentElement.clientHeight,
     }
   },
   computed: {
     getStateName() {
       return this.value ? 'open' : 'close'
+    },
+    getTopOffset() {
+      return `${this.isMove ? this.y : this.topOffset}px`
     }
   },
   mounted () {
+    this.calcY()
     window.onresize = () => {
       this.rect = this.$refs.card.getBoundingClientRect()
     }
@@ -84,18 +89,25 @@ export default {
     this.mc.destroy()
     window.onresize = null
   },
+  updated() {
+    this.calcY()
+  },
   methods: {
+    getResultHeight() {
+      const basedHeight = this.$refs.content.scrollHeight > this.$refs.card.clientHeight ? this.$refs.content.scrollHeight : this.$refs.card.clientHeight
+      const offset = document.documentElement.clientHeight - basedHeight
+      const half = document.documentElement.clientHeight * 0.6
+      this.topOffset = basedHeight > half ? document.documentElement.clientHeight - half : offset
+    },
     calcY () {
       if(this.value) {
-        const offset = document.documentElement.clientHeight - this.$refs.card.clientHeight
-        const half = document.documentElement.clientHeight * 0.6
-        const result = this.$refs.card.clientHeight > half ? document.documentElement.clientHeight - half : offset
+        this.getResultHeight()
         document.body.style.overflow = 'hidden'
-        this.$refs.content.style.maxHeight = `${document.documentElement.clientHeight - result - 44}px`
-        return result
+        this.$refs.content.style.maxHeight = `${document.documentElement.clientHeight - this.topOffset - 44}px`
+      } else {
+        document.body.style.overflow = 'initial'
+        this.topOffset = document.documentElement.clientHeight
       }
-      document.body.style.overflow = 'initial'
-      return document.documentElement.clientHeight
     },
     setState (state) {
       this.$emit('input', state)
