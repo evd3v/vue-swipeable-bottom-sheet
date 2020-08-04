@@ -74,23 +74,6 @@ export default {
       if (this.startY - evt.center.y < -50) {
         this.state = "close"
       }
-
-      // switch (this.state) {
-      //   case "half":
-      //     if (this.startY - evt.center.y > 120) {
-      //       this.state = "open"
-      //     }
-      //
-      //     if (this.startY - evt.center.y < -50) {
-      //       this.state = "close"
-      //     }
-      //     break;
-      //   case "open":
-      //     if (this.startY - evt.center.y < -120) {
-      //       this.state = "half"
-      //     }
-      //     break;
-      // }
     })
   },
   beforeDestroy () {
@@ -118,6 +101,7 @@ export default {
       }
     },
     setState (state) {
+      this.$emit('close')
       this.state = state
     }
   }
