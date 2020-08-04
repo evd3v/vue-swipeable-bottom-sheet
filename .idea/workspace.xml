@@ -35,9 +35,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acaa68f5-f2d7-434e-abb7-fe3b31856a83" name="Default Changelist" comment="add emit for close event">
+    <list default="true" id="acaa68f5-f2d7-434e-abb7-fe3b31856a83" name="Default Changelist" comment="build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/example.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/example.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +82,8 @@
       <workItem from="1596174017475" duration="7281000" />
       <workItem from="1596192651367" duration="3121000" />
       <workItem from="1596529702359" duration="90000" />
-      <workItem from="1596530065977" duration="852000" />
+      <workItem from="1596530065977" duration="958000" />
+      <workItem from="1596531297797" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="some updates">
       <created>1596179512192</created>
@@ -134,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596529785137</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change state toggling to v-model">
+      <created>1596530972572</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596530972572</updated>
+    </task>
+    <task id="LOCAL-00009" summary="build">
+      <created>1596530986350</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596530986350</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,10 +168,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some updates" />
-    <MESSAGE value="build" />
     <MESSAGE value="hotfix" />
     <MESSAGE value="add emit for close event" />
-    <option name="LAST_COMMIT_MESSAGE" value="add emit for close event" />
+    <MESSAGE value="change state toggling to v-model" />
+    <MESSAGE value="build" />
+    <option name="LAST_COMMIT_MESSAGE" value="build" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2664" y="310" key="FileChooserDialogImpl" timestamp="1596181000395">
@@ -172,14 +187,14 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2415" y="187" key="SettingsEditor/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596179679257" />
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1596530067204">
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1596531016456">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596530067204" />
-    <state x="2579" y="281" width="602" height="544" key="find.popup" timestamp="1596178962778">
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596531016456" />
+    <state x="2579" y="281" width="602" height="544" key="find.popup" timestamp="1596531308025">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2579" y="281" width="602" height="544" key="find.popup/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596178962778" />
+    <state x="2579" y="281" width="602" height="544" key="find.popup/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596531308025" />
     <state x="2544" y="254" key="run.anything.popup" timestamp="1596177448984">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

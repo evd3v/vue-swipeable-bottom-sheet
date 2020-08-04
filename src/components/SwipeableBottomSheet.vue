@@ -105,13 +105,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.wrapper[data-open="1"] {
+.wrapper[data-open="true"] {
   position: fixed;
   top: 0;
   left: 0;
 }
 
-.wrapper[data-open="1"] .bg {
+.wrapper[data-open="true"] .bg {
   display: block;
   transition: all .3s;
   position: fixed;
