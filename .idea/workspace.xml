@@ -35,8 +35,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acaa68f5-f2d7-434e-abb7-fe3b31856a83" name="Default Changelist" comment="hotfix">
+    <list default="true" id="acaa68f5-f2d7-434e-abb7-fe3b31856a83" name="Default Changelist" comment="add emit for close event">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/example.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/example.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +82,8 @@
       <workItem from="1596128400026" duration="1447000" />
       <workItem from="1596174017475" duration="7281000" />
       <workItem from="1596192651367" duration="3121000" />
-      <workItem from="1596529702359" duration="30000" />
+      <workItem from="1596529702359" duration="90000" />
+      <workItem from="1596530065977" duration="852000" />
     </task>
     <task id="LOCAL-00001" summary="some updates">
       <created>1596179512192</created>
@@ -125,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596195373535</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add emit for close event">
+      <created>1596529785137</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596529785137</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +156,8 @@
     <MESSAGE value="some updates" />
     <MESSAGE value="build" />
     <MESSAGE value="hotfix" />
-    <option name="LAST_COMMIT_MESSAGE" value="hotfix" />
+    <MESSAGE value="add emit for close event" />
+    <option name="LAST_COMMIT_MESSAGE" value="add emit for close event" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2664" y="310" key="FileChooserDialogImpl" timestamp="1596181000395">
@@ -162,10 +172,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2415" y="187" key="SettingsEditor/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596179679257" />
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1596195376703">
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1596530067204">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596195376703" />
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596530067204" />
     <state x="2579" y="281" width="602" height="544" key="find.popup" timestamp="1596178962778">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

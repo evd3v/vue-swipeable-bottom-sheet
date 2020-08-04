@@ -1,10 +1,10 @@
 <template>
-<div class="wrapper" :data-open="state === 'open' ? 1 : 0">
-  <div ref="background" class="bg" @click="() => setState('close')"></div>
+<div class="wrapper" :data-open="value">
+  <div ref="background" class="bg" @click="() => setState(false)"></div>
   <div
     ref="card"
     class="card"
-    :data-state="isMove ? 'move' : state"
+    :data-state="isMove ? 'move' : getStateName"
     :style="{ top: `${isMove ? y : calcY()}px` }"
   >
     <div class="pan-area" ref="pan"><div class="bar" ref="bar"></div></div>
@@ -24,9 +24,9 @@ export default {
       type: Number,
       default: 0.5
     },
-    defaultState: {
-      type: String,
-      default: "close"
+    value: {
+      type: Boolean,
+      default: false
     }
   },
   data() {
@@ -35,9 +35,13 @@ export default {
       y: 0,
       startY: 0,
       isMove: false,
-      state: this.defaultState,
       rect: {},
       height: 0,
+    }
+  },
+  computed: {
+    getStateName() {
+      return this.value ? 'open' : 'close'
     }
   },
   mounted () {
@@ -50,14 +54,14 @@ export default {
     this.mc.get('pan').set({ direction: Hammer.DIRECTION_ALL })
 
     this.mc.on("panup pandown", (evt) => {
-      if(this.state === "open" && evt.deltaY < 0) {
+      if(this.value && evt.deltaY < 0) {
         return
       }
       this.y = evt.center.y - 16
     })
 
     this.mc.on("panstart", (evt) => {
-      if(this.state === "open" && evt.deltaY < 0) {
+      if(this.value && evt.deltaY < 0) {
         return
       }
       this.startY = evt.center.y
@@ -68,11 +72,11 @@ export default {
       this.isMove = false
 
       if (this.startY - evt.center.y > 120) {
-        this.state = "open"
+        this.setState(true)
       }
 
       if (this.startY - evt.center.y < -50) {
-        this.state = "close"
+        this.setState(false)
       }
     })
   },
@@ -82,27 +86,19 @@ export default {
   },
   methods: {
     calcY () {
-
-
-      switch (this.state) {
-        case "close":
-          document.body.style.overflow = 'initial'
-          return document.documentElement.clientHeight
-        case "open":
-          const offset = document.documentElement.clientHeight - this.$refs.card.clientHeight
-          const half = document.documentElement.clientHeight * 0.6
-          const result = this.$refs.card.clientHeight > half ? document.documentElement.clientHeight - half : offset
-            console.log(this.$refs.card.clientHeight)
-          document.body.style.overflow = 'hidden'
-          this.$refs.content.style.maxHeight = `${document.documentElement.clientHeight - result - 44}px`
-          return result
-        default:
-          return this.y
+      if(this.value) {
+        const offset = document.documentElement.clientHeight - this.$refs.card.clientHeight
+        const half = document.documentElement.clientHeight * 0.6
+        const result = this.$refs.card.clientHeight > half ? document.documentElement.clientHeight - half : offset
+        document.body.style.overflow = 'hidden'
+        this.$refs.content.style.maxHeight = `${document.documentElement.clientHeight - result - 44}px`
+        return result
       }
+      document.body.style.overflow = 'initial'
+      return document.documentElement.clientHeight
     },
     setState (state) {
-      this.$emit('close')
-      this.state = state
+      this.$emit('input', state)
     }
   }
 }

@@ -3,7 +3,7 @@
     <h1>Vue Swipeable Bottom Sheet</h1>
     <button @click="open">Open</button>
     <button @click="close">Close</button>
-    <swipeable-bottom-sheet ref="swipeableBottomSheet">
+    <swipeable-bottom-sheet v-model="swipeState" ref="swipeableBottomSheet">
       <h1>Lorem Ipsum</h1>
       <h2>What is Lorem Ipsum?</h2>
 <!--      <p>-->
@@ -30,12 +30,17 @@ export default {
   components: {
     SwipeableBottomSheet
   },
+  data() {
+    return {
+      swipeState: false
+    }
+  },
   methods: {
     open () {
-      this.$refs.swipeableBottomSheet.setState("open")
+      this.swipeState = true
     },
     close () {
-      this.$refs.swipeableBottomSheet.setState("close")
+      this.swipeState = false
     }
   }
 }
