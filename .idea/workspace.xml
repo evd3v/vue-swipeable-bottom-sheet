@@ -35,10 +35,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acaa68f5-f2d7-434e-abb7-fe3b31856a83" name="Default Changelist" comment="hot update">
+    <list default="true" id="acaa68f5-f2d7-434e-abb7-fe3b31856a83" name="Default Changelist" comment="add dynamic height">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vue-swipeable-bottom-sheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vue-swipeable-bottom-sheet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/example.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/example.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +84,10 @@
       <workItem from="1596529702359" duration="90000" />
       <workItem from="1596530065977" duration="958000" />
       <workItem from="1596531297797" duration="121000" />
-      <workItem from="1596539714285" duration="3311000" />
+      <workItem from="1596539714285" duration="4004000" />
+      <workItem from="1596609256430" duration="599000" />
+      <workItem from="1596697149421" duration="167000" />
+      <workItem from="1597132557614" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="some updates">
       <created>1596179512192</created>
@@ -158,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596531400046</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add dynamic height">
+      <created>1596543118823</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596543118823</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +191,8 @@
     <MESSAGE value="change state toggling to v-model" />
     <MESSAGE value="build" />
     <MESSAGE value="hot update" />
-    <option name="LAST_COMMIT_MESSAGE" value="hot update" />
+    <MESSAGE value="add dynamic height" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dynamic height" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2016" y="126" width="1728" height="860" key="DiffContextDialog" timestamp="1596542681363">
@@ -206,10 +215,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2641" y="172" key="VCS.ChangeListViewerDialog/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596542601842" />
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1596541710551">
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1596543120566">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596541710551" />
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596543120566" />
     <state x="2579" y="281" width="602" height="544" key="find.popup" timestamp="1596531308025">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

@@ -170,5 +170,17 @@ export default {
 .contents {
   overflow-y: scroll;
   box-sizing: border-box;
+  &::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 100%;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #d0d0d0;
+  }
 }
 </style>
