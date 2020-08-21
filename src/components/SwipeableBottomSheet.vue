@@ -123,7 +123,7 @@ export default {
   left: 0;
 }
 
-.wrapper[data-open="true"] .bg {
+.wrapper[data-open="true"] > .bg {
   display: block;
   transition: all .3s;
   position: fixed;

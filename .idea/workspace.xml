@@ -35,8 +35,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acaa68f5-f2d7-434e-abb7-fe3b31856a83" name="Default Changelist" comment="add dynamic height">
+    <list default="true" id="acaa68f5-f2d7-434e-abb7-fe3b31856a83" name="Default Changelist" comment="feat: add custom scrollbar for content">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/example.vue" beforeDir="false" afterPath="$PROJECT_DIR$/example/example.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +70,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,7 +89,8 @@
       <workItem from="1596539714285" duration="4004000" />
       <workItem from="1596609256430" duration="599000" />
       <workItem from="1596697149421" duration="167000" />
-      <workItem from="1597132557614" duration="58000" />
+      <workItem from="1597132557614" duration="206000" />
+      <workItem from="1598013492474" duration="509000" />
     </task>
     <task id="LOCAL-00001" summary="some updates">
       <created>1596179512192</created>
@@ -166,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596543118823</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: add custom scrollbar for content">
+      <created>1597132749324</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597132749324</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +202,8 @@
     <MESSAGE value="build" />
     <MESSAGE value="hot update" />
     <MESSAGE value="add dynamic height" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dynamic height" />
+    <MESSAGE value="feat: add custom scrollbar for content" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add custom scrollbar for content" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2016" y="126" width="1728" height="860" key="DiffContextDialog" timestamp="1596542681363">
@@ -215,14 +226,14 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2641" y="172" key="VCS.ChangeListViewerDialog/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596542601842" />
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1596543120566">
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1597132752812">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596543120566" />
-    <state x="2579" y="281" width="602" height="544" key="find.popup" timestamp="1596531308025">
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597132752812" />
+    <state x="2579" y="281" width="602" height="544" key="find.popup" timestamp="1598013998071">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2579" y="281" width="602" height="544" key="find.popup/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596531308025" />
+    <state x="2579" y="281" width="602" height="544" key="find.popup/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598013998071" />
     <state x="2544" y="254" key="run.anything.popup" timestamp="1596177448984">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
