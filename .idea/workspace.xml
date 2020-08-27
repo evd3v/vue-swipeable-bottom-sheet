@@ -38,6 +38,7 @@
     <list default="true" id="acaa68f5-f2d7-434e-abb7-fe3b31856a83" name="Default Changelist" comment="fix: fixed multiple swipeable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.example.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.example.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,10 @@
       <workItem from="1597132557614" duration="206000" />
       <workItem from="1598013492474" duration="509000" />
       <workItem from="1598015021359" duration="425000" />
-      <workItem from="1598454502469" duration="809000" />
+      <workItem from="1598454502469" duration="3061000" />
+      <workItem from="1598522221539" duration="376000" />
+      <workItem from="1598529213562" duration="601000" />
+      <workItem from="1598542890748" duration="71000" />
     </task>
     <task id="LOCAL-00001" summary="some updates">
       <created>1596179512192</created>
@@ -191,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598454685058</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix: fixed multiple swipeable">
+      <created>1598456544869</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598456544869</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,10 +234,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix: fixed multiple swipeable" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2016" y="126" width="1728" height="860" key="DiffContextDialog" timestamp="1596542681363">
+    <state x="2016" y="126" width="1728" height="860" key="DiffContextDialog" timestamp="1598457596974">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2016" y="126" width="1728" height="860" key="DiffContextDialog/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596542681363" />
+    <state x="2016" y="126" width="1728" height="860" key="DiffContextDialog/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598457596974" />
     <state x="2664" y="310" key="FileChooserDialogImpl" timestamp="1596181000395">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -235,6 +246,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2703" y="469" key="Github.Dialog.Accounts.Choose/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596193295474" />
+    <state x="2620" y="176" key="RollbackChangesDialog" timestamp="1598457597267">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2620" y="176" key="RollbackChangesDialog/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598457597267" />
     <state x="2415" y="187" key="SettingsEditor" timestamp="1596179679257">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -243,14 +258,14 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2641" y="172" key="VCS.ChangeListViewerDialog/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596542601842" />
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1598454686547">
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1598456546314">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598454686547" />
-    <state x="2579" y="281" width="602" height="544" key="find.popup" timestamp="1598013998071">
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598456546314" />
+    <state x="2579" y="281" width="602" height="568" key="find.popup" timestamp="1598457591323">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2579" y="281" width="602" height="544" key="find.popup/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598013998071" />
+    <state x="2579" y="281" width="602" height="568" key="find.popup/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598457591323" />
     <state x="2544" y="254" key="run.anything.popup" timestamp="1596177448984">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

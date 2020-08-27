@@ -133,6 +133,7 @@ export default {
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, .3);
+    touch-action: none;
   }
 }
 
