@@ -12,7 +12,8 @@ options.devServer = {
   contentBase: [
     resolve(__dirname, "example"),
   ],
-  host: "192.168.1.33",
+  // host: "192.168.1.33",
+  host: "127.0.0.1",
   port: '8000',
   publicPath: "/dist"
 };
