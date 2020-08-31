@@ -106,7 +106,7 @@ export default {
         this.$refs.content.style.maxHeight = `${document.documentElement.clientHeight - this.topOffset - 44}px`
       } else {
         document.body.style.overflow = 'initial'
-        this.topOffset = document.documentElement.clientHeight + 100
+        this.topOffset = document.documentElement.clientHeight
       }
     },
     setState (state) {
