@@ -50,9 +50,7 @@ export default {
   },
   mounted () {
     this.calcY()
-    window.onresize = () => {
-      this.rect = this.$refs.card.getBoundingClientRect()
-    }
+    window.addEventListener('resize', this.resizeHandler)
     this.rect = this.$refs.card.getBoundingClientRect()
 
     this.mc = new Hammer(this.$refs.pan)
@@ -87,26 +85,32 @@ export default {
   },
   beforeDestroy () {
     this.mc.destroy()
-    window.onresize = null
+    window.removeEventListener('resize', this.resizeHandler)
   },
   updated() {
     this.calcY()
   },
   methods: {
+    resizeHandler() {
+      this.rect = this.$refs.card.getBoundingClientRect()
+      this.$nextTick(() => {
+        this.calcY()
+      })
+    },
     getResultHeight() {
       const basedHeight = this.$refs.content.scrollHeight > this.$refs.card.clientHeight ? this.$refs.content.scrollHeight : this.$refs.card.clientHeight
-      const offset = document.documentElement.clientHeight - basedHeight
-      const half = document.documentElement.clientHeight * 0.6
-      this.topOffset = basedHeight > half ? document.documentElement.clientHeight - half : offset
+      const offset = window.innerHeight - basedHeight
+      const half = window.innerHeight * 0.6
+      this.topOffset = basedHeight > half ? window.innerHeight - half : offset
     },
     calcY () {
       if(this.value) {
         this.getResultHeight()
         document.body.style.overflow = 'hidden'
-        this.$refs.content.style.maxHeight = `${document.documentElement.clientHeight - this.topOffset - 44}px`
+        this.$refs.content.style.maxHeight = `${window.innerHeight - this.topOffset - 44}px`
       } else {
         document.body.style.overflow = 'initial'
-        this.topOffset = document.documentElement.clientHeight
+        this.topOffset = window.screen.height || document.documentElement.clientHeight
       }
     },
     setState (state) {
