@@ -35,10 +35,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acaa68f5-f2d7-434e-abb7-fe3b31856a83" name="Default Changelist" comment="fix: fixes for swiper">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeableBottomSheet.vue" afterDir="false" />
-    </list>
+    <list default="true" id="acaa68f5-f2d7-434e-abb7-fe3b31856a83" name="Default Changelist" comment="fix: fixes for swiper" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +101,7 @@
       <workItem from="1600257194931" duration="766000" />
       <workItem from="1600258641479" duration="95000" />
       <workItem from="1600261836375" duration="4331000" />
-      <workItem from="1600266616843" duration="1897000" />
+      <workItem from="1600266616843" duration="2209000" />
     </task>
     <task id="LOCAL-00001" summary="some updates">
       <created>1596179512192</created>
@@ -253,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600266674365</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fix: fixes for swiper">
+      <created>1600269351491</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1600269351491</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,10 +316,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2641" y="172" key="VCS.ChangeListViewerDialog/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600269140880" />
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1600267196493">
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1600269352859">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600267196493" />
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600269352859" />
     <state x="2579" y="281" width="602" height="568" key="find.popup" timestamp="1598457591323">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

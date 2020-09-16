@@ -97,7 +97,7 @@ export default {
       if(this.$refs.card) {
         setTimeout(() => {
           this.calcY()
-        }, 100)
+        }, 150)
       }
     },
     getResultHeight() {
