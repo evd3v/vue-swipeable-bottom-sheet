@@ -8,6 +8,7 @@
     :style="{ top: getTopOffset }"
   >
     <div class="pan-area" ref="pan"><div class="bar" ref="bar"></div></div>
+    <textarea cols="5"></textarea>
     <div class="contents" ref="content">
       <slot></slot>
     </div>
@@ -92,8 +93,9 @@ export default {
   },
   methods: {
     resizeHandler() {
-      this.rect = this.$refs.card.getBoundingClientRect()
+      console.log('resize')
       this.$nextTick(() => {
+        this.rect = this.$refs.card.getBoundingClientRect()
         this.calcY()
       })
     },
