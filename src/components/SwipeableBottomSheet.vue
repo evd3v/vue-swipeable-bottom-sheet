@@ -52,6 +52,8 @@ export default {
   mounted () {
     this.calcY()
     window.addEventListener('resize', this.resizeHandler)
+    // window.addEventListener('focusin', this.resizeHandler)
+
     this.rect = this.$refs.card.getBoundingClientRect()
 
     this.mc = new Hammer(this.$refs.pan)
@@ -89,15 +91,14 @@ export default {
     window.removeEventListener('resize', this.resizeHandler)
   },
   updated() {
-    this.calcY()
+    this.resizeHandler()
   },
   methods: {
     resizeHandler() {
-      console.log('resize')
-      this.$nextTick(() => {
-        this.rect = this.$refs.card.getBoundingClientRect()
+      this.rect = this.$refs.card.getBoundingClientRect()
+      setTimeout(() => {
         this.calcY()
-      })
+      }, 50)
     },
     getResultHeight() {
       const basedHeight = this.$refs.content.scrollHeight > this.$refs.card.clientHeight ? this.$refs.content.scrollHeight : this.$refs.card.clientHeight
@@ -106,13 +107,23 @@ export default {
       this.topOffset = basedHeight > half ? window.innerHeight - half : offset
     },
     calcY () {
+      const $body =  document.querySelector('body')
+      let scrollPosition = 0;
       if(this.value) {
         this.getResultHeight()
-        document.body.style.overflow = 'hidden'
+        scrollPosition = window.pageYOffset;
+        $body.style.overflow = 'hidden';
+        $body.style.position = 'fixed';
+        $body.style.top = `-${scrollPosition}px`;
+        $body.style.width = '100%';
         this.$refs.content.style.maxHeight = `${window.innerHeight - this.topOffset - 44}px`
       } else {
-        document.body.style.overflow = 'initial'
-        this.topOffset = window.screen.height || document.documentElement.clientHeight
+        $body.style.removeProperty('overflow');
+        $body.style.removeProperty('position');
+        $body.style.removeProperty('top');
+        $body.style.removeProperty('width');
+        window.scrollTo(0, scrollPosition);
+        this.topOffset = window.innerHeight
       }
     },
     setState (state) {
@@ -179,6 +190,7 @@ export default {
 .contents {
   overflow-y: scroll;
   box-sizing: border-box;
+  padding-bottom: 44px;
   &::-webkit-scrollbar {
     width: 3px;
     border-radius: 100%;

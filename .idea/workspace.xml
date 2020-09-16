@@ -102,7 +102,8 @@
       <workItem from="1598861096728" duration="9838000" />
       <workItem from="1598963345299" duration="148000" />
       <workItem from="1600257194931" duration="766000" />
-      <workItem from="1600258641479" duration="32000" />
+      <workItem from="1600258641479" duration="95000" />
+      <workItem from="1600261836375" duration="4053000" />
     </task>
     <task id="LOCAL-00001" summary="some updates">
       <created>1596179512192</created>
@@ -230,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598891754488</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix: fixes for swiper">
+      <created>1600258723068</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1600258723069</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,10 +297,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2641" y="172" key="VCS.ChangeListViewerDialog/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596542601842" />
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1598891756164">
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1600258727257">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598891756164" />
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600258727257" />
     <state x="2579" y="281" width="602" height="568" key="find.popup" timestamp="1598457591323">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
