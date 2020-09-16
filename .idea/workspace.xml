@@ -104,7 +104,7 @@
       <workItem from="1600257194931" duration="766000" />
       <workItem from="1600258641479" duration="95000" />
       <workItem from="1600261836375" duration="4331000" />
-      <workItem from="1600266616843" duration="47000" />
+      <workItem from="1600266616843" duration="1897000" />
     </task>
     <task id="LOCAL-00001" summary="some updates">
       <created>1596179512192</created>
@@ -246,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600266071467</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fix: fixes for swiper">
+      <created>1600266674365</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1600266674365</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,10 +288,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix: fixes for swiper" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2016" y="126" width="1728" height="860" key="DiffContextDialog" timestamp="1598457596974">
+    <state x="2016" y="126" width="1728" height="860" key="DiffContextDialog" timestamp="1600269142425">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2016" y="126" width="1728" height="860" key="DiffContextDialog/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598457596974" />
+    <state x="2016" y="126" width="1728" height="860" key="DiffContextDialog/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600269142425" />
     <state x="2664" y="310" key="FileChooserDialogImpl" timestamp="1598863339476">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -301,14 +308,14 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2415" y="187" key="SettingsEditor/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596179679257" />
-    <state x="2641" y="172" key="VCS.ChangeListViewerDialog" timestamp="1596542601842">
+    <state x="2641" y="172" key="VCS.ChangeListViewerDialog" timestamp="1600269140880">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2641" y="172" key="VCS.ChangeListViewerDialog/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596542601842" />
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1600266072914">
+    <state x="2641" y="172" key="VCS.ChangeListViewerDialog/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600269140880" />
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2" timestamp="1600267196493">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600266072914" />
+    <state x="2476" y="284" key="Vcs.Push.Dialog.v2/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1600267196493" />
     <state x="2579" y="281" width="602" height="568" key="find.popup" timestamp="1598457591323">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

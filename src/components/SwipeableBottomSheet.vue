@@ -11,6 +11,7 @@
     <div class="contents" ref="content">
       <slot></slot>
     </div>
+    <textarea rows="10"></textarea>
   </div>
 </div>
 </template>
@@ -35,7 +36,7 @@ export default {
       y: 0,
       startY: 0,
       isMove: false,
-      rect: {},
+      // rect: {},
       height: 0,
       topOffset: document.documentElement.clientHeight,
     }
@@ -51,7 +52,7 @@ export default {
   mounted () {
     this.calcY()
     window.addEventListener('resize', this.resizeHandler)
-    this.rect = this.$refs.card.getBoundingClientRect()
+    window.addEventListener('focusin', this.resizeHandler)
 
     this.mc = new Hammer(this.$refs.pan)
     this.mc.get('pan').set({ direction: Hammer.DIRECTION_ALL })
@@ -91,11 +92,13 @@ export default {
     this.resizeHandler()
   },
   methods: {
-    resizeHandler() {
-      this.rect = this.$refs.card.getBoundingClientRect()
-      setTimeout(() => {
-        this.calcY()
-      }, 50)
+    resizeHandler(e) {
+      console.log('resize', e)
+      if(this.$refs.card) {
+        setTimeout(() => {
+          this.calcY()
+        }, 100)
+      }
     },
     getResultHeight() {
       const basedHeight = this.$refs.content.scrollHeight > this.$refs.card.clientHeight ? this.$refs.content.scrollHeight : this.$refs.card.clientHeight
@@ -120,7 +123,7 @@ export default {
         $body.style.removeProperty('top');
         $body.style.removeProperty('width');
         window.scrollTo(0, scrollPosition);
-        this.topOffset = window.innerHeight
+        this.topOffset = window.screen.height || document.documentElement.clientHeight
       }
     },
     setState (state) {
