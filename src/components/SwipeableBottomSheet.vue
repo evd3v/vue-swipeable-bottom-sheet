@@ -8,7 +8,6 @@
     :style="{ top: getTopOffset }"
   >
     <div class="pan-area" ref="pan"><div class="bar" ref="bar"></div></div>
-    <textarea cols="5"></textarea>
     <div class="contents" ref="content">
       <slot></slot>
     </div>
@@ -52,8 +51,6 @@ export default {
   mounted () {
     this.calcY()
     window.addEventListener('resize', this.resizeHandler)
-    // window.addEventListener('focusin', this.resizeHandler)
-
     this.rect = this.$refs.card.getBoundingClientRect()
 
     this.mc = new Hammer(this.$refs.pan)
