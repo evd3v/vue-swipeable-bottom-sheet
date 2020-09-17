@@ -11,7 +11,6 @@
     <div class="contents" ref="content">
       <slot></slot>
     </div>
-    <textarea rows="10"></textarea>
   </div>
 </div>
 </template>
