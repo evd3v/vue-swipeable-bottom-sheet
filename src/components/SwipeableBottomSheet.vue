@@ -92,7 +92,6 @@ export default {
   },
   methods: {
     resizeHandler(e) {
-      console.log('resize', e)
       if(this.$refs.card) {
         setTimeout(() => {
           this.calcY()
